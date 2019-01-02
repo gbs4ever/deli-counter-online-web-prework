@@ -12,11 +12,10 @@ else
  puts str
 end
 end
-ticket = 0
-def take_a_number(katz_deli, count)
-
+$ticket = 0
+def take_a_number(katz_deli)
+count = $ticket += 1  
 katz_deli.push(count)
-count +=1
 puts "Welcome, you are ticket number #{count}. You are number #{katz_deli.length} in line."
 end
 
