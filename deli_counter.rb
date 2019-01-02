@@ -17,7 +17,7 @@ def take_a_number(katz_deli)
 ticket= 0
 katz_deli.push(ticket)
 ticket +=1
-puts "Welcome, #{string }. You are number #{katz_deli.length} in line."
+puts "Welcome, you are ticket number #{ticket}. You are number #{katz_deli.length} in line."
 end
 
 #"Welcome, you are ticket number 12. You are number 2 in line. "
