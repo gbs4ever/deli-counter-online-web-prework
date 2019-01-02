@@ -25,15 +25,13 @@ def now_serving(katz_deli)
   if katz_deli.empty? == true
     puts "There is nobody waiting to be served!"
   else
-  name=katz_deli.shift  #katz_deli.each {|name|
-puts "Currently serving #{name}."
-
-end
+    name=katz_deli.shift  #katz_deli.each {|name|
+    puts "Currently serving #{name}."
+  end
 end
 
 katz_deli = []
 take_a_number(katz_deli)
-
 take_a_number(katz_deli)
 now_serving(katz_deli)
 take_a_number(katz_deli)
