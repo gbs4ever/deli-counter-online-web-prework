@@ -12,9 +12,9 @@ else
  puts str
 end
 end
+ticket = 1
+def take_a_number(katz_deli, ticket)
 
-def take_a_number(katz_deli)
-ticket= nil
 katz_deli.push(ticket)
 ticket +=1
 puts "Welcome, you are ticket number #{ticket}. You are number #{katz_deli.length} in line."
