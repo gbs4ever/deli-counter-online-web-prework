@@ -29,4 +29,7 @@ puts "Currently serving #{name}."
 end
 end
 
-take_a_number([], "Matt")
+katz_deli = []
+take_a_number(katz_deli, "Matt")
+take_a_number(katz_deli, "Sim")
+
