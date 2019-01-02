@@ -13,11 +13,14 @@ else
 end
 end
 
-def take_a_number(katz_deli,string)
-katz_deli.push(string)
-
+def take_a_number(katz_deli)
+ticket= 0
+katz_deli.push(ticket)
+ticket +=1
 puts "Welcome, #{string }. You are number #{katz_deli.length} in line."
 end
+
+#"Welcome, you are ticket number 12. You are number 2 in line. "
 
 def now_serving(katz_deli)
   if katz_deli.empty? == true
@@ -32,4 +35,3 @@ end
 katz_deli = []
 take_a_number(katz_deli, "Matt")
 take_a_number(katz_deli, "Sim")
-
