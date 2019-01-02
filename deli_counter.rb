@@ -14,7 +14,7 @@ end
 end
 $ticket = 0
 def take_a_number(katz_deli)
-count = $ticket += 1  
+count = $ticket += 1
 katz_deli.push(count)
 puts "Welcome, you are ticket number #{count}. You are number #{katz_deli.length} in line."
 end
@@ -32,6 +32,6 @@ end
 end
 
 katz_deli = []
-take_a_number(katz_deli, ticket)
+take_a_number(katz_deli)
 
-take_a_number(katz_deli, ticket)
+take_a_number(katz_deli)
