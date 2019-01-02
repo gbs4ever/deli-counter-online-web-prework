@@ -33,5 +33,5 @@ end
 end
 
 katz_deli = []
-take_a_number(katz_deli, "Matt")
-take_a_number(katz_deli, "Sim")
+take_a_number(katz_deli)
+take_a_number(katz_deli)
