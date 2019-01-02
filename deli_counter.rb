@@ -13,11 +13,11 @@ else
 end
 end
 ticket = 0
-def take_a_number(katz_deli, ticket)
+def take_a_number(katz_deli, count)
 
-katz_deli.push(ticket)
-ticket +=1
-puts "Welcome, you are ticket number #{ticket}. You are number #{katz_deli.length} in line."
+katz_deli.push(count)
+count +=1
+puts "Welcome, you are ticket number #{count}. You are number #{katz_deli.length} in line."
 end
 
 #"Welcome, you are ticket number 12. You are number 2 in line. "
