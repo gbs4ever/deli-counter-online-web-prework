@@ -29,4 +29,5 @@ puts "Currently serving #{name}."
 end
 end
 
+Matt = "Matt"
 take_a_number([], Matt)
