@@ -28,3 +28,5 @@ puts "Currently serving #{name}."
 
 end
 end
+
+take_a_number([], Matt)
