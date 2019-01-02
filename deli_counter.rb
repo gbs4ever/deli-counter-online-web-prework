@@ -12,11 +12,10 @@ else
  puts str
 end
 end
-ticket = 1
+ticket = 0
 def take_a_number(katz_deli, ticket)
-
-katz_deli.push(ticket)
 ticket +=1
+katz_deli.push(ticket)
 puts "Welcome, you are ticket number #{ticket}. You are number #{katz_deli.length} in line."
 end
 
